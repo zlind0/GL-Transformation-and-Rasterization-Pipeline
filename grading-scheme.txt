@@ -1,0 +1,37 @@
+# t <num-points> <max-error> <max-time> <test-file>
+# g <num-points> <max-error> <max-time> <num-pass> file file file ...
+t 10 1.00 1000 00.txt
+t 5 1.00 1000 01.txt
+t 5 1.00 1000 02.txt
+t 5 1.00 1000 03.txt
+t 5 1.00 1000 04.txt
+t 1 1.00 1000 05.txt
+t 1 1.00 1000 06.txt
+t 1 1.00 1000 07.txt
+t 1 1.00 1000 08.txt
+t 1 1.00 1000 09.txt
+t 1 1.00 1000 10.txt
+t 1 1.00 1000 11.txt
+t 1 1.00 1000 12.txt
+t 1 1.00 1000 13.txt
+t 1 1.00 1000 14.txt
+t 1 1.00 1000 15.txt
+t 1 1.00 1000 16.txt
+t 1 1.00 1000 17.txt
+t 1 1.00 1000 18.txt
+t 1 1.00 1000 19.txt
+t 1 1.00 1000 20.txt
+t 1 1.00 1000 21.txt
+t 1 1.00 1000 22.txt
+t 1 1.00 1000 23.txt
+g 1 0.20 1000 24 00.txt 01.txt 02.txt 03.txt 04.txt 05.txt 06.txt 07.txt 08.txt 09.txt 10.txt 11.txt 12.txt 13.txt 14.txt 15.txt 16.txt 17.txt 18.txt 19.txt 20.txt 21.txt 22.txt 23.txt
+g 1 0.05 1000 15 00.txt 01.txt 02.txt 03.txt 04.txt 05.txt 06.txt 07.txt 08.txt 09.txt 10.txt 11.txt 12.txt 13.txt 14.txt 15.txt 16.txt 17.txt 18.txt 19.txt 20.txt 21.txt 22.txt 23.txt
+g 1 1.00 10   24 00.txt 01.txt 02.txt 03.txt 04.txt 05.txt 06.txt 07.txt 08.txt 09.txt 10.txt 11.txt 12.txt 13.txt 14.txt 15.txt 16.txt 17.txt 18.txt 19.txt 20.txt 21.txt 22.txt 23.txt
+t 1 8.00 5000 24.txt
+t 1 4.00 5000 24.txt
+t 1 2.00 5000 24.txt
+t 1 1.00 5000 24.txt
+t 1 8.00 1000 24.txt
+t 1 8.00 100  24.txt
+t 1 8.00 30   24.txt
+t 1 8.00 15   24.txt
